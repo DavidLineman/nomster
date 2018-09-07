@@ -62,3 +62,5 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'will_paginate', '~>3.1.0'
 
 gem 'simple_form'
+
+gem 'font-awesome-rails'
