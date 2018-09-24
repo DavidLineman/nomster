@@ -27,6 +27,7 @@ ActiveRecord::Schema.define(version: 20180924194109) do
   end
 
   create_table "photos", force: :cascade do |t|
+    t.string   "image"
     t.text     "caption"
     t.integer  "user_id"
     t.integer  "place_id"
