@@ -108,10 +108,12 @@
 
 <h1>Photos</h1>
 
-<% @place.photos.each do |comment| %>
+<% @place.photos.each do |photo| %>
   <div>
-      <b><%= photo.picture %></b> -
-        <%= photo.caption %>
+    <% if photo.present? %>
+      <%= image_tag photo.picture %>
+      <%= photo.caption %>
+    <% end %>
   </div>
 <% end %>
      
