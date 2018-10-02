@@ -83,7 +83,10 @@ blockquote p {
 
 .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
   height: 550px;
-  width: 100%;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .carousel-item.active, 
