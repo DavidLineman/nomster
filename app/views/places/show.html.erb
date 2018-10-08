@@ -133,10 +133,10 @@
 <br>
 
 
-<div id="photos">
-  <h1 class="float-left">Photos</h1>
-      <div class="col-12 col-sm-6"   id="photos">
+<div class="booyah-box col-10 offset-1" id="photos">
+  <h1>Photos</h1>
         <% @place.photos.each do |photo| %>
+        <div class="col-12 col-sm-6"   id="photos">
           <% if photo.present? %>
           <%= image_tag photo.picture, class: "img-fluid", alt: "Responsive image" %>
           <%= photo.caption %>
