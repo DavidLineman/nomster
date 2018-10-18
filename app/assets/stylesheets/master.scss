@@ -82,7 +82,7 @@ blockquote p {
 }
 
 .carousel-inner > .carousel-item > img, .carousel-inner > .carousel-item > a > img {
-  height: 550px;
+  max-height: 550px;
   width: 900px;
   margin-left: auto;
   margin-right: auto;
@@ -116,5 +116,6 @@ blockquote p {
   padding-left: 75px;
 }
 
-
-
+.img-fluid {
+  height: 550px;
+}
